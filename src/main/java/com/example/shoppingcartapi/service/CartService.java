@@ -3,7 +3,9 @@ package com.example.shoppingcartapi.service;
 import com.example.shoppingcartapi.model.Item;
 import java.util.ArrayList;
 import java.util.List;
+import org.springframework.stereotype.Service;
 
+@Service
 public class CartService {
   private final List<Item> cartItems = new ArrayList<>();
 
